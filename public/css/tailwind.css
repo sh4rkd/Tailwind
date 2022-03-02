@@ -666,8 +666,16 @@ select {
   align-items: flex-end;
 }
 
+.items-center {
+  align-items: center;
+}
+
 .justify-end {
   justify-content: flex-end;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .space-y-4 > :not([hidden]) ~ :not([hidden]) {
@@ -686,6 +694,25 @@ select {
   background-color: rgb(252 165 165 / var(--tw-bg-opacity));
 }
 
+.bg-tertiary {
+  --tw-bg-opacity: 1;
+  background-color: rgb(97 174 201 / var(--tw-bg-opacity));
+}
+
+.bg-secondary {
+  --tw-bg-opacity: 1;
+  background-color: rgb(143 162 6 / var(--tw-bg-opacity));
+}
+
+.bg-primary {
+  --tw-bg-opacity: 1;
+  background-color: rgb(204 45 74 / var(--tw-bg-opacity));
+}
+
 .p-10 {
   padding: 2.5rem;
+}
+
+.font-Montserrat {
+  font-family: Montserrat, sans-serif;
 }
