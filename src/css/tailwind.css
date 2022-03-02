@@ -5,3 +5,11 @@
 .Card{
     @apply w-48 h-64 shadow-md rounded-lg
 }
+
+.Card-image{
+    @apply w-full h-4/6 rounded-t-lg bg-cover
+}
+
+.Card-bg-green{
+    @apply w-full h-2/6 bg-secondary rounded-b-lg flex flex-col justify-center items-center
+}
